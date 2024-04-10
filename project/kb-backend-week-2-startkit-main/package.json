@@ -1,0 +1,24 @@
+{
+  "name": "voteproject",
+  "version": "1.0.0",
+  "description": "Это стартовый архив для второй проектной работы по бэкенду.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danaborisova/voteproject.git"
+  },
+  "author": "danaborisova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danaborisova/voteproject/issues"
+  },
+  "homepage": "https://github.com/Danaborisova/voteproject#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
