@@ -1,0 +1,19 @@
+{
+  "name": "nodegames",
+  "version": "1.0.0",
+  "description": "first backend experience",
+  "main": "app.js",
+  "scripts": {
+    "dev" : "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/IvanLlanbeh/nodeback"
+  },
+  "author": "sirdebar",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
