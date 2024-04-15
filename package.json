@@ -1,0 +1,23 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poidell/homework.git"
+  },
+  "author": "poidell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poidell/homework/issues"
+  },
+  "homepage": "https://github.com/poidell/homework#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
