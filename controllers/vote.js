@@ -2,7 +2,7 @@ const fs = require("fs").promises;
 const parseBody = require("../appModules/http-utils/parse-body");
 const { config, createRating, updateRating } = require("../appModules/rating");
 
-async function voteRouteController(req, res) {
+async function voteRouteController(res, req) {
   if (req.method !== "POST") {
     res.statusCode = 404;
     res.end("Not Found");

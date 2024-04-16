@@ -20,7 +20,6 @@
 //   await fs.writeFile(path, JSON.stringify(ratingArray));
 // }
 
-
 const fs = require("fs").promises;
 
 async function makeRatingFile(path, array) {
