@@ -1,0 +1,23 @@
+{
+  "name": "vote-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandrNel/Vote-App-node.js.git"
+  },
+  "author": "Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandrNel/Vote-App-node.js/issues"
+  },
+  "homepage": "https://github.com/AlexandrNel/Vote-App-node.js#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
